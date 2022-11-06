@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content type" content="text/html;charset=UTF=8" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="tabs">
+        <div class="tabs__container">
+          <nav class="tabs__items">
+            <a data-tab-name="tab_01" class="tabs__item is-active"
+              ><h2>Горный велосипед</h2>
+              <button class="burger"></button>
+            </a>
+            <a data-tab-name="tab_02" class="tabs__item"
+              ><h2>Женский велосипед</h2>
+              <button class="burger"></button>
+            </a>
+          </nav>
+          <div class="tabs__body">
+            <div class="tabs__block tab_01 is-active">
+              <div class="tabs__block__container _container">
+                <div class="tabs__block__body tabs-body">
+                  <div class="tabs-body__description">
+                    <div class="tabs-body__image">
+                      <picture>
+                        <source srcset=img/image_1_mobile.png
+                        media="(max-width:805px)" />
+                        <img src="img/image 1.png" alt="Горный велосипед" />
+                      </picture>
+                    </div>
+                    <div class="tabs-body__text">
+                      <div class="tabs-body__title">
+                        <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                      </div>
+                      <p>
+                        Данный велосипед с колесами 26 дюймов хорошо подходит
+                        высоким подросткам. Прогиб рамы и небольшой размер рамы
+                        расчитан на рост от 135 до 165 см.
+                      </p>
+                      <p>
+                        Суммарный вес велосипеда был снижен до 16,9 кг, так как
+                        рама была изготовлена с учетом использования велосипеда
+                        подростками.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tabs-body__character tabs-character">
+                    <div class="tabs-character__title">
+                      <h3>Характеристики</h3>
+                    </div>
+                    <ul class="tabs-character__list">
+                      <li class="tabs-character__item">Двойной обод</li>
+                      <li class="tabs-character__item">Алюминиевый сплав</li>
+                      <li class="tabs-character__item">
+                        Колеса диаметром 26 дюймов
+                      </li>
+                      <li class="tabs-character__item">Покрышки 26х1,95"</li>
+                    </ul>
+                    <form action="#" id="form" class="form__body">
+                      <h3>Добавьте характеристики</h3>
+                      <div class="form__item">
+                        <!-- <label for="formCharacter" class="form__label"></label> -->
+                        <input
+                          type="text"
+                          id="formCharacter"
+                          name="character"
+                          class="form__input"
+                          placeholder="Алюминиевый сплав"
+                          pattern="^[А-Яа-яЁё\s]+$"
+                        />
+                        <div class="button button__blue button__add">
+                          Выбрать
+                        </div>
+                      </div>
+                    </form>
+                    <div class="tabs-character__bottom">
+                      <input
+                        type="submit"
+                        value="Окей"
+                        class="button button__blue"
+                      />
+                      <a href="" class="button button__white"> Отмена </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__block tab_02">
+              <div class="tabs__block__container _container">
+                <div class="tabs__block__body tabs-body">
+                  <div class="tabs-body__description">
+                    <div class="tabs-body__image">
+                      <picture>
+                        <source srcset=img/image_2_mobile.png
+                        media="(max-width:805px)" />
+                        <img src="img/image 2.png" alt="Женский велосипед" />
+                      </picture>
+                    </div>
+                    <div class="tabs-body__text">
+                      <div class="tabs-body__title">
+                        <h1>Велосипед SCHWINN Traveler women 2022</h1>
+                      </div>
+                      <p>
+                        Женский велосипед со стальной рамой Classic step-true
+                        lightweight позволяет девушкам без проблем его
+                        перемещать.
+                      </p>
+                      <p>
+                        На данном велосипеде имеется 7 скоростей с
+                        переключателями от Shimano, а жесткая вилка обеспечивает
+                        отличную управляемость. Подходит для катания по
+                        асфальтированным поверхностям.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tabs-body__character tabs-character">
+                    <div class="tabs-character__title">
+                      <h3>Характеристики</h3>
+                    </div>
+                    <ul class="tabs-character__list list__women">
+                      <li class="tabs-character__item">Двойной обод</li>
+                      <li class="tabs-character__item">Алюминиевый сплав</li>
+                      <li class="tabs-character__item">
+                        Колеса диаметром 26 дюймов
+                      </li>
+                      <li class="tabs-character__item">Покрышки 26х1,95"</li>
+                    </ul>
+                    <form action="#" class="form__body" id="form-2">
+                      <h3>Добавьте характеристики</h3>
+                      <div class="form__item">
+                        <!-- <label for="formCharacter" class="form__label"></label> -->
+                        <input
+                          type="text"
+                          id="formCharacter"
+                          name="character"
+                          class="form__input"
+                          placeholder="Алюминиевый сплав"
+                          pattern="^[А-Яа-яЁё\s]+$"
+                        />
+                        <div class="button button__blue button__add_woman">
+                          Выбрать
+                        </div>
+                      </div>
+                    </form>
+                    <div class="tabs-character__bottom">
+                      <input
+                        type="submit"
+                        value="Окей"
+                        class="button button__blue"
+                      />
+
+                      <a href="" class="button button__white"> Отмена </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
